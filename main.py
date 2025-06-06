@@ -938,7 +938,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = "SUJAL™"🇮🇳"
+    credit =credit = "SUJAL"  # बिना emoji या ™
     try:    
         with open(x, "r") as f:
             content = f.read()
