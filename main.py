@@ -152,7 +152,7 @@ async def start(client: Client, msg: Message):
     await asyncio.sleep(1)
     await start_message.edit_text(
         Data.START.format(msg.from_user.mention) +
-        "Checking status Ok... 😜 𝕊𝕖𝕔𝕣𝕖𝕥 ℂ𝕠𝕞𝕞𝕒𝕟𝕕𝕤 𝔸𝕣𝕖 ℂ𝕝𝕒𝕤𝕤𝕚𝕗𝕚𝕖𝕕 — 𝕆𝕟𝕝𝕪 𝔽𝕠𝕣 𝕊𝕦𝕛𝕒𝕝'𝕤 𝔼𝕪𝕖𝕤 🔐😎**Bot Made By ＳＵＪＡＬ💻**🔍\n\n"
+        "Checking status Ok... 😜 𝕊𝕖𝕔𝕣𝕖𝕥 ℂ𝕠𝕞𝕞𝕒𝕟𝕕𝕤 𝔸𝕣𝕖 ℂ𝕝𝕒𝕤𝕤𝕚𝕗𝕚𝕖𝕕 — 𝕆𝕟𝕝𝕪 𝔽𝕠𝕣 𝕊𝕦𝕛𝕒𝕝'𝕤 𝔼𝕪𝕖𝕤 **Bot Made By   .ＳＵＪＡＬ💻**🔍\n\n"
         "Progress:[🟩🟩🟩🟩🟩🟩🟩🟩🟩] 100%\n\n"
     )
 
@@ -172,7 +172,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = "SUJAL™"
+    credit = "SUJAL"
     token = f"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzYxNTE3MzAuMTI2LCJkYXRhIjp7Il9pZCI6IjYzMDRjMmY3Yzc5NjBlMDAxODAwNDQ4NyIsInVzZXJuYW1lIjoiNzc2MTAxNzc3MCIsImZpcnN0TmFtZSI6IkplZXYgbmFyYXlhbiIsImxhc3ROYW1lIjoic2FoIiwib3JnYW5pemF0aW9uIjp7Il9pZCI6IjVlYjM5M2VlOTVmYWI3NDY4YTc5ZDE4OSIsIndlYnNpdGUiOiJwaHlzaWNzd2FsbGFoLmNvbSIsIm5hbWUiOiJQaHlzaWNzd2FsbGFoIn0sImVtYWlsIjoiV1dXLkpFRVZOQVJBWUFOU0FIQEdNQUlMLkNPTSIsInJvbGVzIjpbIjViMjdiZDk2NTg0MmY5NTBhNzc4YzZlZiJdLCJjb3VudHJ5R3JvdXAiOiJJTiIsInR5cGUiOiJVU0VSIn0sImlhdCI6MTczNTU0NjkzMH0.iImf90mFu_cI-xINBv4t0jVz-rWK1zeXOIwIFvkrS0M"
     try:    
         with open(x, "r") as f:
